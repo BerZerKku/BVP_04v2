@@ -1,0 +1,105 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\bvp_04v2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\BVP_04V2.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "64")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (NoModify))
+  (Folder "Outputs"
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (JUMPER_SMD_2
+      (FullPartName "JUMPER_SMD_2.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\bvp_04v2.dsn")
+      (Path "Design Resources" ".\bvp_04v2.dsn" "TOP LEVEL")
+      (Path "Design Resources" ".\bvp_04v2.dsn" "A - OUTPUT")
+      (Path "Design Resources" ".\bvp_04v2.dsn" "B - INPUT")
+      (Path "Design Resources" ".\bvp_04v2.dsn" "D - AMPLIFIER")
+      (Path "Design Resources" ".\bvp_04v2.dsn" "E - MCU")
+      (Path "Design Resources" ".\bvp_04v2.dsn" "F - INTERFACE")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 150 0 880"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -29 54 1463 56 643")
+        (Scroll "340 0")
+        (Zoom "192")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "TOP LEVEL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 108 1517 112 699")
+        (Scroll "467 598")
+        (Zoom "192")
+        (Occurrence "/B1"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
+      (Schematic "B - INPUT")
+      (Page "B - INPUT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 189 1534 196 783")
+        (Scroll "-71 0")
+        (Zoom "100")
+        (Occurrence "/D1"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
+      (Schematic "D - AMPLIFIER")
+      (Page "D - AMLIFIER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 216 1492 224 811")
+        (Scroll "582 564")
+        (Zoom "192")
+        (Occurrence "/A1"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
+      (Schematic "A - OUTPUT")
+      (Page "A - OUTPUT")))
+  (MPSSessionName "Shcheblykin"))
