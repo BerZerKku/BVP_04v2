@@ -55,7 +55,7 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File "BVP_04V2.PRP"
+    (File ".\bvp_04v2.prp"
       (Type "Report")
       (DisplayName "BVP_04V2.PRP")))
   (Folder "Referenced Projects")
@@ -68,33 +68,20 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn"
-         "A - OUTPUT")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn"
-         "B - INPUT")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn"
-         "D - AMPLIFIER")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn"
-         "E - MCU")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn"
-         "F - INTERFACE")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "d:\project\circuit\orcad\bvp\04v2\bvp_04v2.dsn"))
-    (HierarchyView)
+      (Path "Outputs"))
+    (HierarchyView
+      (Path "TOP LEVEL")
+      (Path "TOP LEVEL" "A1 (A - OUTPUT)"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
-      (Tab 0))
+      (Tab 1))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 54 1463 56 643")
-        (Scroll "-127 120")
+        (Scroll "-127 136")
         (Zoom "96")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
@@ -104,7 +91,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 108 1517 112 699")
-        (Scroll "-127 0")
+        (Scroll "-127 100")
         (Zoom "96")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
@@ -114,7 +101,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 189 1534 196 783")
-        (Scroll "-71 40")
+        (Scroll "-71 0")
         (Zoom "100")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
@@ -124,8 +111,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -29 216 1492 224 811")
-        (Scroll "-331 -10")
-        (Zoom "77")
+        (Scroll "237 45")
+        (Zoom "154")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V2\BVP_04V2.DSN")
       (Schematic "A - OUTPUT")
