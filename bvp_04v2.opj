@@ -60,6 +60,15 @@
       (DisplayName "BVP_04V2.PRP")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (TOP
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BOT_2
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BOT_1
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (JUMPER_SMD_2
       (FullPartName "JUMPER_SMD_2.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
@@ -74,9 +83,10 @@
       (Path "Design Resources" ".\bvp_04v2.dsn" "B - INPUT")
       (Path "Design Resources" ".\bvp_04v2.dsn" "D - AMPLIFIER")
       (Path "Design Resources" ".\bvp_04v2.dsn" "E - MCU")
+      (Path "Design Resources" ".\bvp_04v2.dsn" "F - INTERFACE")
       (Path "Outputs")
-      (Select "Design Resources" ".\bvp_04v2.dsn" "D - AMPLIFIER"
-         "D - AMLIFIER"))
+      (Select "Design Resources" ".\bvp_04v2.dsn" "F - INTERFACE"
+         "F - INTERFACE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -86,9 +96,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 54 1426 56 514")
-        (Scroll "-87 0")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -24 54 1426 56 514")
+        (Scroll "-319 -12")
+        (Zoom "82")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BVP\04V2\BVP_04V2.DSN")
       (Schematic "TOP LEVEL")
@@ -97,8 +107,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 88 1485 92 589")
-        (Scroll "-99 0")
-        (Zoom "100")
+        (Scroll "-205 0")
+        (Zoom "82")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\BVP\04V2\BVP_04V2.DSN")
       (Schematic "A - OUTPUT")
@@ -106,8 +116,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 110 1507 115 612")
-        (Scroll "-99 0")
+        (Placement "44 0 1 -1 -1 -4 -24 0 1397 0 492")
+        (Scroll "-99 125")
         (Zoom "100")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\BVP\04V2\BVP_04V2.DSN")
@@ -116,9 +126,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 132 1529 138 635")
-        (Scroll "-99 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -24 22 1419 23 515")
+        (Scroll "-205 0")
+        (Zoom "82")
+        (Occurrence "/D1"))
+      (Path "D:\PROJECT\CIRCUIT\BVP\04V2\BVP_04V2.DSN")
+      (Schematic "D - AMPLIFIER")
+      (Page "D - AMLIFIER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -24 44 1441 46 538")
+        (Scroll "-205 0")
+        (Zoom "82")
         (Occurrence "/E1"))
       (Path "D:\PROJECT\CIRCUIT\BVP\04V2\BVP_04V2.DSN")
       (Schematic "E - MCU")
@@ -126,11 +146,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 154 1551 161 658")
-        (Scroll "-213 0")
-        (Zoom "100")
-        (Occurrence "/D1"))
+        (Placement "44 0 1 -1 -1 -4 -24 66 1463 69 561")
+        (Scroll "-205 0")
+        (Zoom "82")
+        (Occurrence "/F1"))
       (Path "D:\PROJECT\CIRCUIT\BVP\04V2\BVP_04V2.DSN")
-      (Schematic "D - AMPLIFIER")
-      (Page "D - AMLIFIER")))
+      (Schematic "F - INTERFACE")
+      (Page "F - INTERFACE")))
   (MPSSessionName "Shcheblykin"))
